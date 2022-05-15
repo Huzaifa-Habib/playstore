@@ -1,0 +1,537 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(233, 233, 233);
+    
+}
+
+.main-nav{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+}
+
+.logo{
+    margin-left: 20px;
+}
+
+#search{
+    width: 60%;
+    padding: 0;
+    margin-left: 30px;
+    margin-top: 5px;
+
+}
+
+
+#search input{
+    padding: 8px;
+    height: 32px;
+    border-radius: 0;
+
+}
+
+#button{
+    width: 12%;
+    padding: 0;
+    background-color: rgb(78, 136, 212);
+    border-color:rgb(78, 136, 212) ;
+    border-radius: 0;
+
+}
+
+.apps{
+    margin-top: 6px;
+    margin-left: 40px;
+}
+
+
+#drp{
+    padding-left: 20px;
+    width: 350px;
+    box-shadow: 2px 2px 2px 2px rgb(235, 235, 235);
+   
+}
+
+
+#drp img{
+    margin-right: 50px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.sign{
+    margin-top: 5px;
+}
+
+#bttn{
+    margin-left: 20px;
+    background-color: rgb(78, 136, 212);
+    border-color:rgb(78, 136, 212) ;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 4px;
+    width: 90%;
+    padding-right: 10px;
+    position: static;
+ 
+}
+
+
+
+
+.second-nav{
+    background-color: white;
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    height: 55px;
+}
+
+.first-box{
+    background-color: rgb(94, 161, 67);
+    width: 19%;
+    color: white;
+    padding-top: 10px;
+}
+
+.first-box img{
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+
+.first-box span{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+
+
+.second-box{
+    color: gray;
+    margin-left: 50px;
+    margin-top: 15px;
+    border-right: 1px solid rgb(199, 199, 199);
+    padding-right: 20px;
+ 
+}
+
+.second-box a{
+    color: gray;
+    text-decoration: none;
+}
+
+#down{
+    font-size: 12px;
+    width: 520px;
+  
+}
+#down a{
+    width: 30%;
+}
+
+#down table{
+    margin-left: 200px;
+    position: absolute;
+    
+}
+
+#down table td{
+    padding-top: 5px;
+}
+
+
+
+
+
+
+.third-box{
+    display: flex;
+    margin-top: 15px;
+    /* margin-left: 10px; */
+    color: gray;
+}
+
+.third-box p{
+    margin-left: 20px;
+}
+
+.fourth-box{
+    margin-left: 200px;
+    margin-top: 15px;
+}
+
+
+
+.fourth-box button{
+    width: 40px;
+    background-color: white;
+    border: none;
+    border:1px solid rgb(214, 214, 214);
+    border-radius: 5px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+#btn-2{
+    width: 60px;
+}
+
+
+
+.main{
+    width: 100%;
+    display: flex;
+    margin-top: 55px;
+} 
+
+.left-bar{
+    width: 19.2%;
+    background-color: rgb(243, 243, 243);
+    position: fixed;
+    height: 220px;
+     margin-top: 6px;
+
+}
+
+.header{
+    margin-left: 40px;
+    padding-top: 20px;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    width: 70%;
+  
+}
+
+.para-1{
+    font-size: 20px;
+}
+
+.para-2{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(107, 167, 39);
+}
+
+.footer{
+    margin-left: 40px;
+    padding-top: 20px;
+    line-height: 100%;
+    color: rgb(70, 70, 70);
+    font-size: 14px;
+}
+
+.left-head{
+    border-bottom: 1px solid rgb(185, 185, 185);
+}
+
+.left-footer{
+    padding-left: 20px;
+    font-size: 14px;
+    color: rgb(70, 70, 70);
+    line-height: 100%;
+    padding-top: 20px;
+    box-shadow: 1px 1px 1px 1px rgb(221, 221, 221);
+}
+
+                                            /*End Of Leftbar  */
+
+
+
+.middle{
+    width: 700px;
+    background-color: white;
+    margin-top: 70px;
+    margin-left: 250px;
+    box-shadow: 2px 2px 2px 2px rgb(202, 202, 202);
+
+
+}
+
+.middle-head{
+    padding-left: 20px;
+    margin-top: 20px;
+    display: flex;
+
+}
+
+.info{
+    margin-left: 30px;
+}
+
+.face{
+    font-size: 30px;
+}
+
+
+.company{
+    font-size: 14px;
+    color: rgb(107, 167, 39);
+    font-weight: bold;
+}
+
+.teen{
+    font-size: 14px;
+    color: gray;
+    font-weight: bold ;
+    line-height: 100%;
+}
+
+.rating{
+    color: gray;
+    font-size: 14px;
+    margin-left: 80px;
+    line-height: 100%;
+}
+
+
+
+.ad{
+    color: gray;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.install{
+    border-radius: 5px;
+    padding: 5px;
+    width: 25%;
+    color: white;
+    background-color: rgb(94, 161, 67) ;
+    border: none;
+    font-weight: bold;
+    float: right;
+
+}
+
+.images{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.intro{
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 90%;
+    font-size: 15px;
+    color: gray;
+    border-bottom: 1px solid gray;
+}
+
+
+.review-sec{
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 90%;
+}
+
+.policy{
+    float: right;
+    margin-right: 90px;
+    font-size: 14px;
+    color: gray;
+    
+}
+
+.written{
+    border: 1px solid rgb(211, 211, 211);
+    width: 25%;
+    padding: 6px;
+    color: gray;
+    font-weight: bold;
+    float: right;
+    margin-right: 90px;
+    border-radius: 5px;
+
+}
+.sec{
+    display: flex;
+    width: 100%;
+}
+
+.rate{
+    margin-top: 60px;
+    margin-left: 20px;
+    width: 30%;
+    color: gray;
+ 
+}
+
+
+.number{
+    font-size: 70px;
+    color: rgb(92, 92, 92);
+    margin-left: 10px;
+}
+
+.total{
+    margin-left: 50px;
+}
+
+ .bars{ 
+    margin-left: 200px;
+    margin-top: 80px;
+    position: absolute;
+    font-size: 12px;
+    color: gray;
+    line-height: 250%;
+}
+
+.first{
+    background-color: springgreen;
+    padding-right: 320px;
+    margin-left: 10px;
+    padding-bottom: 5px;   
+}
+
+.second{
+    background-color: rgba(110, 199, 59, 0.603);
+    padding-right: 80px;
+    margin-left: 10px;
+    padding-bottom: 5px; 
+}
+
+.third{
+    background-color: yellow;
+    padding-right: 60px;
+    margin-left: 10px;
+    padding-bottom: 5px; 
+}
+
+.fourth{
+    padding-right: 40px;
+    margin-left: 10px;
+    padding-bottom: 5px; 
+    background-color:rgb(236, 182, 5) ;
+}
+
+.fifth{
+    padding-right: 250px;
+    margin-left: 10px;
+    padding-bottom: 5px; 
+    background-color: rgb(255, 236, 185);
+
+}
+
+
+
+.people-review{
+    margin-top: 40px;
+}
+
+.people-review label{
+  line-height: 120%;
+}
+
+.people-review label span{
+    font-size: 12px;
+    color: gray;
+}
+
+.thumb{
+    margin-left: 400px;
+}
+
+
+/* End of middle */
+
+
+.main-footer{
+    margin-top: 70px;
+    margin-left: 300px;
+}
+
+
+.top{
+    display: flex;
+}
+
+.more{
+    background-color: rgb(70, 192, 33);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin-left: 500px;
+    padding: 4px;
+}
+
+.footer-1{
+    background-color: white;
+    width: 25%;
+    height: 250px;
+    line-height: 50%;
+}
+
+.footer-1 img{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.para{
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.appss{
+    display: flex;
+    margin-left: 0;
+}
+
+.footer-2{
+    background-color: white;
+    width: 25%;
+    height: 250px;
+    line-height: 50%;
+    margin-left: 10px;
+}
+
+.footer-2 img{
+    margin-top: 40px;
+    margin-left: 30px;
+
+}
+
+.footer-3{
+    background-color: white;
+    width: 25%;
+    height: 250px;
+    line-height: 50%;
+    margin-left: 10px;
+
+}
+
+.footer-3 img{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.footer-4{
+    background-color: white;
+    width: 25%;
+    height: 250px;
+    line-height: 50%;
+    margin-left: 10px;
+}
+
+.footer-4 img{
+    margin-top: 40px;
+    margin-left: 30px;
+
+}
+
+
+ 
+
+
+
+
